@@ -1,0 +1,6 @@
+
+  { statusCode: 200,
+  headers: 
+   { 'Access-Control-Allow-Origin': '*',
+     'Access-Control-Allow-Credentials': true },
+  body: '{"userId":"USER-SUB-1234","noteId":"13d56f90-76c1-11e7-8b83-27c6051ac0c2","content":"hello world","attachment":"hello.jpg","createdAt":1501595729161}' }
