@@ -1,0 +1,12 @@
+apig-test \
+--username='admin@example.com' \
+--password='Passw0rd!' \
+--user-pool-id='us-east-1_iYgrcpfO9' \
+--app-client-id='36e72iqg4ha0f1sin6uge79c90' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:fb6d5d55-a9ec-4bcb-aaf5-8ae5fd7ebbd6' \
+--invoke-url='https://b7l6gtxwz2.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
